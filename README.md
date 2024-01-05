@@ -23,7 +23,9 @@ This will stop the process, and no more line will be written to the file.
 
 For the streaming demo, you will need to get a media file.
 I used the famous Big Buck Bunny video, available from here: https://peach.blender.org/download/
+
 Or the direct link: https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_60fps_normal.mp4.zip
+
 You will need to unzip it and put the video file in the current directory, then converting it to a webm file and keep only the audio part.
 
 This can be done using the following commands:
