@@ -22,10 +22,10 @@ if [ -f output.txt ]; then
   echo "Test failed: the file exists before the process was started"
   exit 1
 fi
-curl http://localhost:5155/start
+curl -s http://localhost:5155/start
 echo "\nWaiting 10 seconds…"
 sleep 10
-curl http://localhost:5155/stop
+curl -s http://localhost:5155/stop
 if [ ! -f output.txt ]; then
   echo "Test failed: the file was not created after the process was started"
   exit 1
